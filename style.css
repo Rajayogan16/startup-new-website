@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-padding-top: 5rem;
+}
+
+
+
+
+
+#us{
+    animation: 2s us infinite;
+    animation-direction: alternate-reverse;
+    transition: linear;
+ }
+ 
+ @keyframes us
+ {
+  0%{margin-left: 0%;}  
+  100%{margin-left: 100px;}
+ }
+
+.animation{
+    height: 5px;
+    width: 100px;
+
+}
+ .inner{
+    height: 5px;
+    width: 10px;
+    border-radius: 20px;
+    animation: 1s inner infinite;
+    animation-direction: alternate-reverse;
+    transition:linear;
+}
+
+@keyframes inner 
+{
+ 0%{margin-left: 0%;}
+   
+ 100%{margin-left: 90px;}
+}
+
+.logo{
+    position: relative;
+
+}
+
+.home-logo{
+    position: relative;
+    top:-40px;
+}
+
+
+.diamond{
+    width: fit-content;
+    margin-left: 45%;
+    transform: rotate(45deg);
+}
+
+.diamond i{
+    transform: rotate(-45deg);
+}
+
+.blog span{
+    position: absolute;
+    top: 50%;
+}
+
+@media screen and (max-width:600px)
+{
+  html{
+    font-size: 70%;
+  }
+ .nav-item{
+    text-align: center;
+ }
+ 
+ .home-logo
+ {
+    position: relative;
+    top:0px;
+}
+
+.animation{
+    margin: auto;
+}
+.folio{
+    text-align: center;
+}
+ 
+.card-title{
+    text-align: center;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.card-body{
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+}
+
+.about{
+    text-align: center;
+}
+
+.animation{
+    padding-left: 5px;
+}
+
+.call{
+    justify-content: center;
+}
+
+.quote{
+    text-align: center;
+}
+
+
+
+}
